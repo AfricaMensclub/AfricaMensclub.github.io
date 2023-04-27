@@ -106,7 +106,14 @@ body {
   border: 0 solid #f00; }
 
 
-.prueba-menu{
-  background: transparent;
+
+
+@media only screen and (max-width: 768px){
+
+  .tamano-img{
+
+  width: 95px;
+  height: 261px;
+}
 }
 /*# sourceMappingURL=estilos.css.map */
