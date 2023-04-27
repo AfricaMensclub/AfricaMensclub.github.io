@@ -5,47 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!------------  para la PWA--->
+    <meta name="theme-color" content="#F0DB4F">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="./images/favicon.ico">
+    <link rel="apple-touch-startup-image" href="./images/favicon.ico">
+    <link rel="manifest" href="./manifest.json">
+    <!-----termina pwa----->
     <!----favicon--->
-
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/flickity.css">
-
-    <title>Africa Cabaret</title>
+    <title>Africa Cabaret Mens</title>
 </head>
-
-
-
-
-  <!---menu-->
-    <nav class="navbar navbar-dark  navbar-expand-md prueba-menu fixed-top bg-black " style="z-index: 999; background: #0c0c0cf0;">
-
-        <div class="container">
-            <a href="# " class="navbar-brand">
-                
-                <img src="images/africa.png" width="80" alt="">
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Soy un menu"> <span class="navbar-toggler-icon"> </span>
-            </button>
-            <div class="collapse navbar-collapse " id="menu-principal">
-                <ul class="navbar-nav ml-auto ">
-                    <li class="nav-item  d-flex border  "><a href="index.html" class="nav-link active mx-auto font-weight-bold "> INICIO</a></li>
-                    <li class="nav-item d-flex border "><a href="menu.html" class="nav-link mx-auto font-weight-bold"> MENU</a></li>
-                    <li class="nav-item d-flex border "><a href="#" class="nav-link mx-auto font-weight-bold d-none"> GALERIA</a></li>
-                     <li class="nav-item d-flex border "><a href="nosotros.html" class="nav-link mx-auto font-weight-bold"> SOBRE NOSOTROS</a></li>
-                      <li class="nav-item d-flex border "><a href="#" class="nav-link mx-auto font-weight-bold d-none"> PROMOCIONES</a></li>
-                </ul>
-            </div>
-    </nav>
-
-    <!---termina el menu---->
+<!---menu-->
+<nav class="navbar navbar-dark  navbar-expand-md prueba-menu fixed-top bg-black " style="z-index: 999; background: #0c0c0cf0;">
+    <div class="container">
+        <a href="# " class="navbar-brand">
+            <img src="images/africa.png" width="80" alt="">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Soy un menu"> <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse " id="menu-principal">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item  d-flex border  "><a href="index.html" class="nav-link active mx-auto font-weight-bold "> INICIO</a></li>
+                <li class="nav-item d-flex border "><a href="menu.html" class="nav-link mx-auto font-weight-bold"> MENU</a></li>
+                <li class="nav-item d-flex border "><a href="#" class="nav-link mx-auto font-weight-bold d-none"> GALERIA</a></li>
+                <li class="nav-item d-flex border "><a href="nosotros.html" class="nav-link mx-auto font-weight-bold"> SOBRE NOSOTROS</a></li>
+                <li class="nav-item d-flex border "><a href="#" class="nav-link mx-auto font-weight-bold d-none"> PROMOCIONES</a></li>
+            </ul>
+        </div>
+</nav>
+<!---termina el menu---->
 
 <body class="inicio">
-
     <div class="unica">
         <div>
             <img class="logo" src="images/africa.png" alt="">
@@ -56,7 +55,8 @@
             <a href="https://wa.me/529861208519?text=HOLA%20QUIERO%20RESERVAR%20UNA%20MESA%20EL%20DIA%20DE%20HOY" class="btn ">Reservaciones.</a>
         </div>
     </div>
-<div class="hero-slider" data-carousel data-flickity='{ "autoPlay": true }'>        <div class="carousel-cell" style="background-image: url(images/01.jpg);">
+    <div class="hero-slider" data-carousel data-flickity='{ "autoPlay": true }'>
+        <div class="carousel-cell" style="background-image: url(images/01.jpg);">
             <div class="overlay"></div>
         </div>
         <div class="carousel-cell" style="background-image: url(images/02.jpg);">
@@ -66,14 +66,13 @@
             <div class="overlay"></div>
         </div>
     </div>
-
-
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-   <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/flickity.pkgd.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="./script.js"></script>
     <!-----  <script src="js/popper.min.js"></script> ----->
 </body>
 
